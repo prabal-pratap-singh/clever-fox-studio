@@ -1,0 +1,103 @@
+.home {
+  background: #000;
+  /* width: 100%;
+  height: 100%; */
+  top: 0;
+  left: 0;
+}
+
+#heading1 {
+  z-index: 1;
+  position: absolute;
+  color: #fff;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 105px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 95px; /* 90.476% */
+  letter-spacing: -7.2px;
+  width: 549px;
+  height: 285px;
+  left: 135px;
+  top: 117px;
+}
+
+.image {
+  position: relative;
+  height: 745px;
+  border: none;
+  mix-blend-mode: luminosity;
+}
+
+.female {
+  width: 230px;
+  left: 652px;
+}
+
+.male {
+  left: 732px;
+  width: 478px;
+}
+
+#homeButton {
+  border: none;
+  position: absolute;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #47e4bf;
+  left: 135px;
+  top: 529px;
+  width: 174px;
+  height: 64px;
+}
+
+#homeButtonText {
+  color: #fff;
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+#socialMediaHandles {
+  position: absolute;
+  left: 80px;
+  top: 115px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 21px;
+}
+
+#contactNumber {
+  position: absolute;
+  transform-origin: left;
+  transform: rotate(90deg);
+  left: 90px;
+  top: 591px;
+}
+
+#ContactNumberStyling {
+  color: #fff;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 60px 40px 0px 70px;
+  position: relative;
+}
+
+.leftSide{
+  margin-top: 30px;
+}

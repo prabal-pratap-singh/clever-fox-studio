@@ -1,0 +1,10 @@
+.attributeDeck {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding: 0px 40px 0px 50px;
+}

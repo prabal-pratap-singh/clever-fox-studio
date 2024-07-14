@@ -1,0 +1,198 @@
+.attributePanel {
+  position: relative;
+  max-width: fit-content;
+  max-height: 300px;
+}
+
+.attributePanelBg {
+  width: 400px;
+  height: 300px;
+  flex-shrink: 0;
+  mix-blend-mode: luminosity;
+}
+
+.attributeTextBg {
+  width: 360px;
+  height: 76px;
+  background: #101010e5;
+}
+
+.attributeTextContentBody {
+  position: relative;
+  width: 296px;
+  display: flex;
+  flex-direction: column;
+  left: 32px;
+  top: -185px;
+  transition: opacity 0.35s linear;
+  opacity: 0;
+}
+
+.attributeTextContentBody.fadeIn {
+  opacity: 0;
+}
+
+.attributeTextContentBody.fadeOut {
+  opacity: 1;
+}
+
+.attributeTextContentBody p {
+  font-family: Plus Jakarta Sans;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5D5D5D;
+}
+
+.attributeTextContentBody hr {
+  width: 296px;
+  background-color: #5D5D5D;
+  color: #5D5D5D;
+  border-color:#5D5D5D;
+}
+
+.attributeText {
+  position: relative;
+  max-width: fit-content;
+  max-height: 76px;
+}
+
+.attributeTextBg.forwardAnimation {
+  transform-origin: bottom;
+  transition: transform 0.75s ease-out;
+  animation: increaseHeight .75s ease-out forwards;
+}
+
+@keyframes increaseHeight {
+  0% {
+    transform: scaleY(1);
+  }
+  60% {
+    transform: scaleY(3.55);
+  }
+  100% {
+    transform: scaleY(3.35);
+  }
+}
+
+.attributeTextBg.backwardAnimation {
+  transform-origin: bottom;
+  transition: transform .75s ease-out;
+  animation: decreaseHeight .75s ease-out forwards;
+}
+
+@keyframes decreaseHeight {
+  0% {
+    transform: scaleY(3.35);
+  }
+  60% {
+    transform: scaleY(0.80);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.attributeTextContent {
+  position: relative;
+  color: #fff;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 27.72px;
+  left: 32px;
+  top: -52px;
+  transition: top .75s ease-out;
+}
+
+.attributeTextContent.forwardAnimation {
+  animation: increaseTop .75s ease-out forwards;
+}
+
+@keyframes increaseTop {
+  0% {
+    top: -52px;
+  }
+  60% {
+    top: -215px;
+  }
+  100% {
+    top: -205px
+  }
+}
+
+.attributeTextContent.backwardAnimation {
+  animation: decreaseTop .75s ease-out forwards;
+}
+
+@keyframes decreaseTop {
+  0% {
+    top: -200px;
+  }
+  60% {
+    top: -42px;
+  }
+  100%{
+    top: -52px
+  }
+}
+
+.attributeBadge {
+  position: relative;
+  left: 285px;
+  bottom: 105px;
+  max-width: fit-content;
+  transition: opacity 0.35s linear;
+  opacity: 1;
+}
+
+.attributeBadge.fadeIn {
+  opacity: 1;
+}
+
+.attributeBadge.fadeOut {
+  opacity: 0;
+}
+
+.badgeLogo {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  left: -44px;
+  top: -11px;
+}
+
+.badgeBg {
+  width: 56px;
+  height: 56px;
+}
+
+.attributePanelFeature {
+  position: relative;
+  left: 20px;
+  bottom: 101px;
+  max-width: fit-content;
+  max-height: 98px;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
