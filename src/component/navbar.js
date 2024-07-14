@@ -87,7 +87,7 @@ export default function Navbar() {
       <style>
         {`
             li{
-                color:white;
+                color: white;
             }
             li:hover{
                 color: #47E4BF;
