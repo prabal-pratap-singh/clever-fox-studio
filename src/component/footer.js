@@ -158,7 +158,7 @@ function Footer() {
                 zIndex: "2",
               }}
               type="text"
-              class="rounded-input"
+              className="rounded-input"
               placeholder="Enter your email to subscribe"
             />
             <style>
