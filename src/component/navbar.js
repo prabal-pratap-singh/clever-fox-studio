@@ -91,14 +91,17 @@ export default function Navbar() {
       </ul>
       <style>
         {`
-            li{
+            li {
+              color: white;
+            }
+            li a{
                 color: white;
             }
             li:hover{
                 color: #47E4BF;
             }
             li a:visited{
-                color: white
+                color: white;
             }
             li a:hover{
                 color: #47E4BF;
