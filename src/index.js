@@ -14,22 +14,22 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/clever-fox-studio/",
+    path: "/",
     element: <Home />,
     errorElement: <ErrorPage />
   },
   {
-    path: "/clever-fox-studio/home",
+    path: "/home",
     element: <Home />,
     errorElement: <ErrorPage />
   },
   {
-    path: "/clever-fox-studio/contact",
+    path: "/contact",
     element: <ContactUs />,
     errorElement: <ErrorPage />
   },
   {
-    path: "/clever-fox-studio/services",
+    path: "/services",
     element: <Service />,
     errorElement: <ErrorPage />
   },
