@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/clever-fox-studio/static/css/main.5a74c627.css",
-    "main.js": "/clever-fox-studio/static/js/main.eb4a2ce9.js",
+    "main.css": "/clever-fox-studio/static/css/main.cad27189.css",
+    "main.js": "/clever-fox-studio/static/js/main.acfd6f2e.js",
     "static/js/453.bb828c5d.chunk.js": "/clever-fox-studio/static/js/453.bb828c5d.chunk.js",
     "static/media/bg-testimonial.svg": "/clever-fox-studio/static/media/bg-testimonial.331fc9d4d2cd0ae830b5baccef169b0e.svg",
     "static/media/male-img.svg": "/clever-fox-studio/static/media/male-img.557d69a7e3d7d10ec27f97ad7927bdaf.svg",
@@ -16,12 +16,12 @@
     "static/media/vector-2.svg": "/clever-fox-studio/static/media/vector-2.99a49371dec5c2f6f09e7e971fe8c265.svg",
     "static/media/double-inv-comma.svg": "/clever-fox-studio/static/media/double-inv-comma.388f292c36343268f6baf58616639d13.svg",
     "static/media/bg-badge.svg": "/clever-fox-studio/static/media/bg-badge.d845ee819a21e5b02e9571dfd93205ea.svg",
-    "main.5a74c627.css.map": "/clever-fox-studio/static/css/main.5a74c627.css.map",
-    "main.eb4a2ce9.js.map": "/clever-fox-studio/static/js/main.eb4a2ce9.js.map",
+    "main.cad27189.css.map": "/clever-fox-studio/static/css/main.cad27189.css.map",
+    "main.acfd6f2e.js.map": "/clever-fox-studio/static/js/main.acfd6f2e.js.map",
     "453.bb828c5d.chunk.js.map": "/clever-fox-studio/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a74c627.css",
-    "static/js/main.eb4a2ce9.js"
+    "static/css/main.cad27189.css",
+    "static/js/main.acfd6f2e.js"
   ]
 }
