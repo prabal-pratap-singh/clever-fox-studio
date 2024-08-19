@@ -1,6 +1,14 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 export default function Navbar() {
   const items = ["Home", "About", "Services", "Contact"];
+  const getHyperLink = (item) => {
+    if (item.toLowerCase() === "home") {
+      return "/";
+    } else {
+      return `/${item.toLowerCase()}`;
+    }
+  };
   return (
     <section
       style={{
@@ -10,7 +18,7 @@ export default function Navbar() {
         width: "100%",
         zIndex: "99",
         columnGap: "248px",
-        marginTop: "19px"
+        marginTop: "19px",
       }}
     >
       <div
@@ -75,12 +83,9 @@ export default function Navbar() {
               height: "20px",
             }}
           >
-            <a
-              href={`${item.toLowerCase()}`}
-              style={{ textDecoration: "none" }}
-            >
+            <Link to={getHyperLink(item)} style={{ textDecoration: "none" }}>
               {item}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
