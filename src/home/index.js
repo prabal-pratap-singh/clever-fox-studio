@@ -14,6 +14,7 @@ import ServiceDeck from "../component/service-deck";
 import Testimonials from "../component/testimonials";
 import BlogDeck from "../component/blog-deck";
 import Footer from "../component/footer";
+import ArrowCircle from "../component/arrowCircle";
 
 function Home() {
   const common = {
@@ -26,9 +27,14 @@ function Home() {
       <h1 id="heading1">More than just a design agency</h1>
       <img src={female} className="female image" alt="img" />
       <img src={male} className="male image" alt="img" />
-      <button id="homeButton">
-        <span id="homeButtonText">Let's Talk</span>
-      </button>
+      <CyanButton
+            position={"absolute"}
+            height={"64px"}
+            width={"174px"}
+            left={"135px"}
+            top={"529px"}
+            hyperlink={'/contact'}
+          />
       <div id="socialMediaHandles">
         <TwitterLogo style={{ width: "16px", height: "16px" }} />
         <FacebookLogo style={{ width: "10px", height: "16px" }} />
@@ -156,6 +162,7 @@ function Home() {
             height={"64px"}
             width={"174px"}
             top={"20px"}
+            hyperlink={'/contact'}
           />
         </div>
       </div>

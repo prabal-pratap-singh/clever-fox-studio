@@ -1,5 +1,6 @@
 import HorzSocialMedia from "./horz-scl-media";
 import { ReactComponent as Logo } from "../home/assets/company-logo.svg";
+import CyanButton from "./cyan-button";
 function Footer() {
   return (
     <div
@@ -116,17 +117,33 @@ function Footer() {
                 marginBottom: "15px",
               }}
             >
-              <li style={{ marginBottom: "15px" }}>Contact Us</li>
-              <li style={{ marginBottom: "15px" }}>About Us</li>
-              <li style={{ marginBottom: "15px" }}>Services</li>
-              <li style={{ marginBottom: "15px" }}>Hiring</li>
-              <li style={{ marginBottom: "15px" }}>Our Blog</li>
+              <li style={{ marginBottom: "15px", color: "#5D5D5D" }}>
+                Contact Us
+              </li>
+              <li style={{ marginBottom: "15px", color: "#5D5D5D" }}>
+                About Us
+              </li>
+              <li style={{ marginBottom: "15px", color: "#5D5D5D" }}>
+                Services
+              </li>
+              <li style={{ marginBottom: "15px", color: "#5D5D5D" }}>Hiring</li>
+              <li style={{ marginBottom: "15px", color: "#5D5D5D" }}>
+                Our Blog
+              </li>
             </ul>
             <ul style={{ listStyleType: "none", margin: "0" }}>
-              <li style={{ marginBottom: "15px" }}>Website Development</li>
-              <li style={{ marginBottom: "15px" }}>UI/UX Design</li>
-              <li style={{ marginBottom: "15px" }}>Social Media Marketing</li>
-              <li style={{ marginBottom: "15px" }}>Google Ads Management</li>
+              <li style={{ marginBottom: "15px", color: "#5D5D5D" }}>
+                Website Development
+              </li>
+              <li style={{ marginBottom: "15px", color: "#5D5D5D" }}>
+                UI/UX Design
+              </li>
+              <li style={{ marginBottom: "15px", color: "#5D5D5D" }}>
+                Social Media Marketing
+              </li>
+              <li style={{ marginBottom: "15px", color: "#5D5D5D" }}>
+                Google Ads Management
+              </li>
             </ul>
           </div>
           <div style={{ zIndex: "2" }}>
@@ -154,24 +171,21 @@ function Footer() {
                         color: #5D5D5D;
                       }`}
             </style>
-            <button
+            <CyanButton
+              border="none"
+              width="124px"
+              height="68px"
+              backgroundColor="#47E4BF"
+              text="Subscribe"
               style={{
-                border: "none",
-                width: "124px",
-                height: "68px",
-                paddingBottom: "6px",
-                backgroundColor: "#47E4BF",
                 borderRadius: "0px 10px 10px 0px",
-                color: "#FFFFFF",
                 fontFamily: "Plus Jakarta Sans",
                 fontSize: "16px",
                 fontWeight: "800",
                 lineHeight: "20.16px",
-                zIndex: "2",
+                paddingBottom: "6px"
               }}
-            >
-              Subscribe
-            </button>
+            />
           </div>
         </div>
       </div>
@@ -202,6 +216,7 @@ function Footer() {
             style={{
               margin: "0 10px",
               listStyleType: "none",
+              color: "#5D5D5D",
             }}
           >
             Privacy Policy
@@ -211,6 +226,7 @@ function Footer() {
               margin: "0 10px",
               listStyleType: "disc",
               textIndent: "10px",
+              color: "#5D5D5D",
             }}
           >
             Xylosculpt
@@ -220,6 +236,7 @@ function Footer() {
               margin: "0 10px",
               listStyleType: "disc",
               textIndent: "10px",
+              color: "#5D5D5D",
             }}
           >
             Terms & Conditions
